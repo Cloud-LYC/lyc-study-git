@@ -2,6 +2,7 @@ package com.lyc.controller;
 
 import javax.annotation.Resource;
 
+import com.alibaba.fastjson.JSON;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -19,7 +20,7 @@ public class UserController {
     public ModelAndView getIndex(){      
         ModelAndView mav = new ModelAndView("userInfo");
         User user = userService.selectUserById(1);  
-        mav.addObject("user", user);   
+        mav.addObject("user", JSON.toJSON(user));
         return mav;    
     } 
 }
