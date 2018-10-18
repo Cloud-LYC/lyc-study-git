@@ -1,0 +1,13 @@
+
+hsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Œ´Òá
+Rsquid:S1197"8Move the array designator from the variable to the type.(İƒ©¼ùÿÿÿÿ
+Lsquid:S1197"8Move the array designator from the variable to the type.(ÓöñL
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(è€şøşÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ëõ 
+esquid:S2259"P"NullPointerException" will be thrown when invoking method "getMessageDigest()".(Ëõ 
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ
+ysquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Â¸š‰øÿÿÿÿ
+Bsquid:S4425"(Use String.format( "%02X", ...) instead.(ş”®ùÿÿÿÿ
+=squid:S4425"(Use String.format( "%02X", ...) instead.(ÿêÇ®
