@@ -1,10 +1,6 @@
 package com.lyc.study.bigDecimal;
 
-import com.alibaba.fastjson.JSON;
-import org.springframework.util.CollectionUtils;
-
-import java.math.BigDecimal;
-import java.util.*;
+import java.util.Random;
 
 /**
  * create by Intellij IDEA.
@@ -17,11 +13,7 @@ import java.util.*;
 public class TestBigdecimal {
     public static void main(String[] args) {
         Random random = new Random();
-        List<Double> result = new ArrayList<>();
-        for (int i =0; i<= 100; i++) {
-            result.add(new BigDecimal(random.nextDouble() * 100).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue());
-        }
-        Collections.sort(result);
-        System.out.println(JSON.toJSON(result));
+        System.out.println(random.nextInt(12)+1);
+
     }
 }
