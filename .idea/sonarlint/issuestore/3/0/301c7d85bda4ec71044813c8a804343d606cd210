@@ -1,13 +1,13 @@
 
-Csquid:S2129" Remove this "String" constructor(îâ–Êşÿÿÿÿ8ìá¼ôí,
+Fsquid:S1481")Remove this unused "patt" local variable.(Ê³¨P8™âÄ¸ï,
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(²¨ì 8¬ì“ôí,
-Fsquid:S1481")Remove this unused "patt" local variable.(Ê³¨P8 Éôí,
-isquid:S1192"FDefine a constant instead of duplicating this literal "https" 3 times.(ŸÄƒùÿÿÿÿ8¬ì“ôí,
-jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•ŠŞîÿÿÿÿÿ
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(³Åı¬8ìá¼ôí,
-dsquid:UselessImportCheck"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8 Éôí,
+squid:S106"9Replace this use of System.out or System.err by a logger.(²¨ì 8™âÄ¸ï,
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•ŠŞîÿÿÿÿÿ8™âÄ¸ï,
+Csquid:S2129" Remove this "String" constructor(îâ–Êşÿÿÿÿ8™âÄ¸ï,
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(ŸÄƒùÿÿÿÿ8œ•ôí,
-_squid:UselessImportCheck"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã8 Éôí,
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŸÄƒùÿÿÿÿ8™âÄ¸ï,
+isquid:S1192"FDefine a constant instead of duplicating this literal "https" 3 times.(ŸÄƒùÿÿÿÿ8™âÄ¸ï,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(³Åı¬8™âÄ¸ï,
+_squid:UselessImportCheck"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã8™âÄ¸ï,
+dsquid:UselessImportCheck"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8™âÄ¸ï,

@@ -21,7 +21,12 @@ public class StringTest {
         System.out.println(a == b);
         System.out.println(a == c);*/
 
-        System.out.println(getEquals(a));
+//        System.out.println(getEquals(a));
+
+        System.out.println(String.format("%.3f", 0.124213));
+
+        System.out.println(String.format("%."+ 11 + "f", Math.random()).replaceFirst("0.", ""));
+
     }
 
 

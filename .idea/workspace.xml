@@ -7,13 +7,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8d1cd4-78cd-40b4-99a9-39ec5bbe1536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/eruptSimultaneously/MethodParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/zhengze/http.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/sort/SleepSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/301c7d85bda4ec71044813c8a804343d606cd210" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/301c7d85bda4ec71044813c8a804343d606cd210" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e73a8f090273929d00054487730ba898447b5ed" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e73a8f090273929d00054487730ba898447b5ed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdadc8e2e4a376f009a27f0e5bc1399665cda511" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdadc8e2e4a376f009a27f0e5bc1399665cda511" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c663377fd2e7cfc116d8f7c138e07ce36dfa3552" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c663377fd2e7cfc116d8f7c138e07ce36dfa3552" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0a1056b3e43eaaff66acd2242cb150f41666a76" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0a1056b3e43eaaff66acd2242cb150f41666a76" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/DepthActionTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/DepthActionTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/LightTest$Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/LightTest$Light.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/LightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/LightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/MD5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/MD5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/DepthAction/Miain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/DepthAction/Miain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/DepthAction/MyMine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/DepthAction/MyMine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/DepthAction/UserDepthActionDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/DepthAction/UserDepthActionDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/Random/StringRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/Random/StringRandom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/enumexercise/ColorEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/enumexercise/ColorEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/enumexercise/ColorValueEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/enumexercise/ColorValueEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/enumexercise/EnumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/enumexercise/EnumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/file/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/file/FileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/jdkUpdate/IPExt$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/jdkUpdate/IPExt$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/jdkUpdate/IPExt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/jdkUpdate/IPExt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/ArrayList_LYC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/ArrayList_LYC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/Find_half.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/Find_half.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/LinkList_LYC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/LinkList_LYC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/TestTransient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/TestTransient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/list/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/mana/mafka.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/mana/mafka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/map/HashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/map/HashMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/network/DownloadFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/network/DownloadFileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/set/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/set/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/set/TestSubList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/set/TestSubList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/set/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/set/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/tree/BTNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/tree/BTNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/tree/BinTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/tree/BinTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/tree/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/tree/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/tree/Test_class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/tree/Test_class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/dateUtil/DateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/dateUtil/DateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/java8/MapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/java8/MapSort.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,18 +98,21 @@
     <session id="-2028560336">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.1" value="7" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.1" value="9" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="2" />
-          <entry key="class" value="1" />
-          <entry key="java" value="28" />
+          <entry key="class" value="2" />
+          <entry key="java" value="32" />
           <entry key="jsp" value="3" />
           <entry key="md" value="2" />
           <entry key="properties" value="2" />
@@ -80,9 +124,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="Database Element" value="1" />
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="32" />
           <entry key="JSP" value="3" />
           <entry key="Manifest" value="2" />
           <entry key="Markdown" value="2" />
@@ -94,22 +138,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1558" />
+          <entry key="java" value="2668" />
           <entry key="jsp" value="60" />
           <entry key="properties" value="15" />
           <entry key="sql" value="3" />
-          <entry key="txt" value="44" />
-          <entry key="xml" value="80" />
+          <entry key="txt" value="48" />
+          <entry key="xml" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1558" />
+          <entry key="JAVA" value="2668" />
           <entry key="JSP" value="60" />
-          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="PLAIN_TEXT" value="48" />
           <entry key="Properties" value="15" />
           <entry key="SQL" value="3" />
-          <entry key="XML" value="80" />
+          <entry key="XML" value="88" />
         </counts>
       </usages-collector>
     </session>
@@ -117,40 +161,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zhengze/http.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="175">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/eruptSimultaneously/MethodParam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="33" column="116" lean-forward="true" selection-start-line="33" selection-start-column="116" selection-end-line="33" selection-end-column="116" />
+            <state relative-caret-position="442">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,7 +202,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/utils/MobileNoUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="255">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -190,14 +213,23 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-734">
-              <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider editor-type-id="YarmPluginDependencyUpdater" />
           <provider editor-type-id="YarmPluginDependencyAnalyzer" />
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2091">
+              <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -212,6 +244,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>lyc</find>
+      <find>compa</find>
+      <find>comp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -231,11 +265,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userInfo.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/DepthActionTypeEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/MD5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/java8/MapSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/collection/map/HashMapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/collection/file/FileTest.java" />
@@ -243,8 +275,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/utils/MobileNoUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/zhengze/http.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/eruptSimultaneously/MethodParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/sort/SleepSort.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java" />
       </list>
     </option>
   </component>
@@ -262,7 +297,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
+    <option name="x" value="8" />
     <option name="y" value="22" />
     <option name="width" value="1384" />
     <option name="height" value="813" />
@@ -302,9 +337,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,19 +379,13 @@
               <item name="lyc" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lyc-study-git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyc-study-git" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lyc" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +393,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541743367992" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543812799240" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -404,13 +430,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringTest">
-    <configuration name="MobileNoUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.utils.MobileNoUtils" />
+  <component name="RunManager" selected="Application.DateTest">
+    <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.dateUtil.DateTest" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.utils.*" />
+          <option name="PATTERN" value="com.lyc.study.dateUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleepSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.sort.SleepSort" />
+      <module name="lyc-study-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyc.study.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,28 +470,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBigdecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.bigDecimal.TestBigdecimal" />
+    <configuration name="DateTest.testDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.study.bigDecimal.*" />
+          <option name="PATTERN" value="com.lyc.study.dateUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.lyc.study.dateUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.dateUtil.DateTest" />
+      <option name="METHOD_NAME" value="testDate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="http" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.zhengze.http" />
+    <configuration name="DateTest.testGetStratrTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.study.zhengze.*" />
+          <option name="PATTERN" value="com.lyc.study.dateUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.lyc.study.dateUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.dateUtil.DateTest" />
+      <option name="METHOD_NAME" value="testGetStratrTime" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -531,17 +576,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Web" />
-      <item itemvalue="Application.TestBigdecimal" />
-      <item itemvalue="Application.MobileNoUtils" />
-      <item itemvalue="Application.http" />
       <item itemvalue="Application.StringTest" />
+      <item itemvalue="Application.SleepSort" />
+      <item itemvalue="JUnit.DateTest.testDate" />
+      <item itemvalue="JUnit.DateTest.testGetStratrTime" />
+      <item itemvalue="Application.DateTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateTest" />
         <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.http" />
-        <item itemvalue="Application.MobileNoUtils" />
-        <item itemvalue="Application.TestBigdecimal" />
+        <item itemvalue="JUnit.DateTest.testGetStratrTime" />
+        <item itemvalue="JUnit.DateTest.testDate" />
+        <item itemvalue="Application.SleepSort" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +612,15 @@
       <workItem from="1541330452907" duration="2257000" />
       <workItem from="1541679242627" duration="670000" />
       <workItem from="1541680109990" duration="921000" />
-      <workItem from="1541732913731" duration="4590000" />
+      <workItem from="1541732913731" duration="4925000" />
+      <workItem from="1541746963793" duration="18000" />
+      <workItem from="1541746987489" duration="856000" />
+      <workItem from="1542597944190" duration="4432000" />
+      <workItem from="1542620736432" duration="1511000" />
+      <workItem from="1543149696290" duration="712000" />
+      <workItem from="1543151717528" duration="70000" />
+      <workItem from="1543301978404" duration="259000" />
+      <workItem from="1543806092605" duration="1072000" />
     </task>
     <task id="LOCAL-00001" summary="随机double两位小数位">
       <created>1539854533338</created>
@@ -581,17 +636,56 @@
       <option name="project" value="LOCAL" />
       <updated>1541051867325</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="并发查询">
+      <created>1541743393072</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541743393072</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DateTest_testDate - 2018.11.19 at 16h 49m 38s.xml">
+      <configuration name="DateTest.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testDate - 2018.11.19 at 16h 50m 04s.xml">
+      <configuration name="DateTest.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testDate - 2018.11.19 at 16h 50m 29s.xml">
+      <configuration name="DateTest.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testDate - 2018.11.19 at 17h 46m 38s.xml">
+      <configuration name="DateTest.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testDate - 2018.11.19 at 17h 46m 59s.xml">
+      <configuration name="DateTest.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testDate - 2018.11.19 at 17h 47m 08s.xml">
+      <configuration name="DateTest.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testDate - 2018.11.19 at 17h 47m 21s.xml">
+      <configuration name="DateTest.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testDate - 2018.11.19 at 17h 47m 55s.xml">
+      <configuration name="DateTest.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testDate - 2018.11.19 at 17h 48m 05s.xml">
+      <configuration name="DateTest.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest_testGetStratrTime - 2018.11.25 at 20h 47m 05s.xml">
+      <configuration name="DateTest.testGetStratrTime" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23228000" />
+    <option name="totallyTimeSpent" value="32493000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="22" width="1384" height="813" extended-state="0" />
+    <frame x="8" y="22" width="1384" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3186567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3074627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -602,7 +696,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.52578795" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41977078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5744986" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -640,16 +734,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="随机double两位小数位" />
     <MESSAGE value="手机号中间四位替换成*号" />
-    <option name="LAST_COMMIT_MESSAGE" value="手机号中间四位替换成*号" />
+    <MESSAGE value="并发查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发查询" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="&quot;2&quot;" language="JAVA" />
-        <watch expression="value" language="JAVA" />
-        <watch expression="a" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -671,47 +769,47 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>new Date().getTime() &gt; dateTime.getMillis()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new Date().getTime() &lt;= dateTime.getMillis()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new Date().getTime()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dateTime.getMillis()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DateTimeFormat.forPattern(&quot;yyyy-MM-dd&quot;).print(DateTime.now().withTimeAtStartOfDay().minusWeeks(i).withDayOfWeek(7))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DateTime.now()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DateTime.now().withTimeAtStartOfDay().withDayOfWeek(3)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>&quot;2&quot;</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
         <expression-string>value == &quot;2&quot;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>a == &quot;2&quot;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>b == &quot;2&quot;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>a = &quot;2&quot;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>&quot;2&quot;.hash</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>a == b</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>a</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>a.value</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -883,38 +981,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zhengze.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/collections/google-collections/1.0/google-collections-1.0.jar!/com/google/common/collect/Lists.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="128" column="36" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/collections/google-collections/1.0/google-collections-1.0-sources.jar!/com/google/common/collect/Lists.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zhengze/http.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zhengze/http.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar!/org/joda/time/format/DateTimeFormat.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/sort/SleepSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="413">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar!/org/joda/time/base/AbstractInstant.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar!/org/joda/time/format/DateTimeFormat.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/eruptSimultaneously/MethodParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -927,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/utils/MobileNoUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="255">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -935,51 +1062,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-734">
-          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider editor-type-id="YarmPluginDependencyUpdater" />
       <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/collections/google-collections/1.0/google-collections-1.0.jar!/com/google/common/collect/Lists.class">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="128" column="36" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
+        <state relative-caret-position="2091">
+          <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/collections/google-collections/1.0/google-collections-1.0-sources.jar!/com/google/common/collect/Lists.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="422" column="52" selection-start-line="422" selection-start-column="52" selection-end-line="422" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/eruptSimultaneously/MethodParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="33" column="116" lean-forward="true" selection-start-line="33" selection-start-column="116" selection-end-line="33" selection-end-column="116" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="202">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
         </state>
       </provider>
     </entry>
