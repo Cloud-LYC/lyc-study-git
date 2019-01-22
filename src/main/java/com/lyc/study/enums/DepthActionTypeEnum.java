@@ -1,4 +1,4 @@
-package com.lyc.study;
+package com.lyc.study.enums;
 
 /**
  * 用户深度行为

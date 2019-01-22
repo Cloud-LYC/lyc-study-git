@@ -1,7 +1,8 @@
-package com.lyc.study.eruptSimultaneously;
+package com.lyc.study.threadexercise.eruptSimultaneously;
 
 import com.google.common.collect.Lists;
-import com.lyc.model.User;
+
+import com.lyc.dto.UserDTO;
 import org.springframework.util.CollectionUtils;
 
 import java.util.Collections;
@@ -23,11 +24,12 @@ public class MethodParam {
      * 此时可以将其进行分批、并发查询
      */
 
-    public List<User> getUsersByIds(List<Integer> userIdList){
+    public List<UserDTO> getUsersByIds(List<Integer> userIdList){
         //参数校验
         if (CollectionUtils.isEmpty(userIdList)){
             //打日志或者输出错误信息，，直接返回空集合
             System.out.println("[MethodParam] getUsersByIds param is empty userIdList = {}"+userIdList);
+            return Collections.emptyList();
         }
 
         //userId去重、去空
@@ -36,7 +38,7 @@ public class MethodParam {
         //设置单次查询的List大小
         int limit = 50;
 
-        List<User> result;
+        List<UserDTO> result;
 
         //小于限制大小，直接调用查询
         if (allIds.size() <= limit){
@@ -50,7 +52,7 @@ public class MethodParam {
         return result;
     }
 
-    private List<User> page(List<Integer> userIds){
+    private List<UserDTO> page(List<Integer> userIds){
         //开始查询
         //走数据库查询也好，调用其它服务也好
         System.out.println("开始查询");

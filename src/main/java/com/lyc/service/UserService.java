@@ -1,7 +1,7 @@
 package com.lyc.service;
 
-import com.lyc.model.User;
+import com.lyc.dto.UserDTO;
 
 public interface UserService {
-	User selectUserById(Integer userId);  
+	UserDTO selectUserById(Integer userId);
 }
