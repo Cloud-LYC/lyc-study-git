@@ -17,5 +17,8 @@ public class User {
     /**
      * 用户密码
      */
-    private String userPassword;  
+    private String userPassword;
+
+    double longitude;
+    double latitude;
 }

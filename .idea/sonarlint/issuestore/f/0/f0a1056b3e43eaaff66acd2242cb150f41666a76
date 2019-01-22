@@ -1,10 +1,10 @@
 
-|squid:S1488""^Immediately return this expression instead of assigning it to the temporary variable "result".(ãÉ°Ú8™âÄ¸ï,
+_squid:S3457"AFormat specifiers should be used instead of string concatenation.(ÇíÕ†8ßìŞŸõ,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(åšŒóüÿÿÿÿ8™âÄ¸ï,
-_squid:S3457"AFormat specifiers should be used instead of string concatenation.(ÇíÕ†8ßìŞŸõ,
 nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(úúÍŒûÿÿÿÿ8™âÄ¸ï,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŒÂ²ƒşÿÿÿÿ8ıôêŸõ,
+|squid:S1488""^Immediately return this expression instead of assigning it to the temporary variable "result".(ãÉ°Ú8™âÄ¸ï,
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(ÇíÕ†8ÒóßŸõ,
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŒÂ²ƒşÿÿÿÿ8ıôêŸõ,
 Csquid:S1481"&Remove this unused "a" local variable.(ğ—c8ıôêŸõ,

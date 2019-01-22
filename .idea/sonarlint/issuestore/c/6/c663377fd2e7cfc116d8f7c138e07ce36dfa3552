@@ -1,6 +1,6 @@
 
 vsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(£Τ΄¨ώÿÿÿÿ8Φόκμ,
-Lsquid:S1068")Remove this unused "REGEX" private field.(£Τ΄¨ώÿÿÿÿ8™›μμ,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(―Ϊεζϋÿÿÿÿ8Φλμ,
 isquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(όοΚ8™›μμ,
+Lsquid:S1068")Remove this unused "REGEX" private field.(£Τ΄¨ώÿÿÿÿ8™›μμ,

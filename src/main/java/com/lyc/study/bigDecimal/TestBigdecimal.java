@@ -1,5 +1,7 @@
 package com.lyc.study.bigDecimal;
 
+import com.lyc.model.User;
+
 import java.util.Random;
 
 /**
@@ -13,7 +15,14 @@ import java.util.Random;
 public class TestBigdecimal {
     public static void main(String[] args) {
         Random random = new Random();
-        System.out.println(random.nextInt(12)+1);
+        System.out.print(random.nextInt(12)+1+"\t");
+
+        User user = new User();
+
+        if (user.getLatitude() == 0)
+        System.out.println(user);
 
     }
+
+
 }
