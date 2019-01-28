@@ -1,10 +1,15 @@
 
-_squid:S3457"AFormat specifiers should be used instead of string concatenation.(«Ì’Ü8ﬂÏﬁüı,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˙˙Õå˚ˇˇˇˇ8˝ÙÍüı,
+|squid:S1488T"^Immediately return this expression instead of assigning it to the temporary variable "result".(„…∞⁄8ô‚ƒ∏Ô,
+Csquid:S1481"&Remove this unused "a" local variable.(éóc8˝ÙÍüı,
+nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(å¬≤É˛ˇˇˇˇ8§◊ù¶á-
+nsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(ÉÙ˙„˙ˇˇˇˇ8§◊ù¶á-
+nsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(˛ÛΩì¸ˇˇˇˇ8§◊ù¶á-
+nsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(µÛÉØ˙ˇˇˇˇ8§◊ù¶á-
+isquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(Ï‘Å⁄8§◊ù¶á-
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÂöåÛ¸ˇˇˇˇ8ô‚ƒ∏Ô,
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˙˙Õå˚ˇˇˇˇ8ô‚ƒ∏Ô,
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(å¬≤É˛ˇˇˇˇ8˝ÙÍüı,
-|squid:S1488""^Immediately return this expression instead of assigning it to the temporary variable "result".(„…∞⁄8ô‚ƒ∏Ô,
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(«Ì’Ü8“Ûﬂüı,
-Csquid:S1481"&Remove this unused "a" local variable.(éóc8˝ÙÍüı,
+squid:S106="9Replace this use of System.out or System.err by a logger.(¥°œÕ˙ˇˇˇˇ8§◊ù¶á-
+osquid:UselessImportCheck"ERemove this unused import 'org.springframework.util.CollectionUtils'.(ÂÂÖK8§◊ù¶á-
+bsquid:UselessImportCheck
+"2Remove this unused import 'java.util.Collections'.(¢≥Ô”˛ˇˇˇˇ8§◊ù¶á-
+[squid:UselessImportCheck	"0Remove this unused import 'java.util.ArrayList'.(˜âÓÉ8§◊ù¶á-

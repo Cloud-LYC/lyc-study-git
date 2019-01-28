@@ -1,0 +1,8 @@
+
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(îñò
+csquid:S00112L"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+csquid:S00112N"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+[squid:S2147M"DCombine this catch with the one at line 75, which has the same body.(Å¡ß
+fsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(í®©øÿÿÿÿ
+asquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ÍÀ£
+fsquid:S00119-"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¬õòòşÿÿÿÿ
