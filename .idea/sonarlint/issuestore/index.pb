@@ -1,6 +1,4 @@
 
-I
-src/main/webapp/index.jsp,8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded
 V
 &src/main/java/com/lyc/dao/UserDao.java,b/f/bf47f5605ce97eb897993916e4bf2a9a0e923f03
 ]
@@ -11,10 +9,6 @@ R
 "src/main/java/com/lyc/sql/demo.sql,f/6/f6fa21dfda4d66762dd53976ec9cbfba10f5a1e9
 ]
 -src/main/resources/mybatis/mybatis-config.xml,6/9/6912f4cd241824b53c0e5229ccaf7693e4841e63
-[
-+src/main/resources/springmvc/spring-mvc.xml,3/b/3bad00fa0ccdf024065a3d83884496dd4c56f0c4
-\
-,src/main/resources/springmvc/application.xml,3/c/3ce89c92d62b5ced570c0a10c9f6676d697981f8
 O
 src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 X

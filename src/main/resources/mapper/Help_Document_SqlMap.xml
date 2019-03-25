@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.helpdocument.dao.HelpDocumentDao">
+
+    <resultMap id="fieldsMap"   type="com.helpdocument.entity.HelpDocument">
+        <result column="url" property="url" />
+        <result column="title" property="title" />
+        <result column="author" property="author" />
+        <result column="updateTime" property="updateTime" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <sql id="cip_growth_onestop_help_document_base_column" >
+        title, url, author, `type`, updateTime, status
+    </sql>
+
+    <!--添加文档-->
+    <insert id="insert" parameterType="com.helpdocument.entity.HelpDocument" >
+        INSERT INTO Help_Document(
+        title, url,author, `type`, addTime, updateTime)
+        VALUES (
+        #{helpDocument.title},
+        #{helpDocument.url},
+        #{helpDocument.author},
+        #{helpDocument.type},
+        NOW(),
+        NOW()
+        )
+    </insert>
+
+    <!--逻辑上删除-->
+    <update id="delete" parameterType="int">
+        UPDATE Help_Document
+        SET status = 0, updateTime = NOW()
+        WHERE id = #{id}
+    </update>
+
+    <!--更新文档-->
+    <update id="update" parameterType="com.helpdocument.entity.HelpDocument">
+        UPDATE Help_Document
+        SET
+        title = #{helpDocument.title},
+        url = #{helpDocument.url},
+        author = #{helpDocument.author},
+        `type` = #{helpDocument.type},
+        updateTime = NOW()
+        WHERE id = #{helpDocument.id}
+    </update>
+
+    <!--更新状态-->
+    <update id="updateStatus" >
+        UPDATE Help_Document
+        SET status = #{status}
+        WHERE id = #{id}
+    </update>
+
+    <!--根据文档ID查找文档-->
+    <select id="load" resultType="com.helpdocument.entity.HelpDocument">
+        SELECT *
+        FROM Help_Document
+        WHERE status > 0
+        AND id = #{id}
+    </select>
+
+    <!--获取所有文档-->
+    <select id="query" resultType="com.helpdocument.entity.HelpDocument">
+        SELECT *
+        FROM Help_Document
+        WHERE status > 0
+        ORDER BY updateTime DESC
+    </select>
+
+    <!--根据类别获取文档-->
+    <select id="queryByType" resultType="com.helpdocument.entity.HelpDocument">
+        SELECT *
+        FROM Help_Document
+        WHERE `type` = #{type} AND status > 0
+        ORDER BY updateTime DESC
+    </select>
+
+    <!--根据标题模糊查询-->
+    <select id="queryLikeTitle" resultType="com.helpdocument.entity.HelpDocument">
+        SELECT *
+        FROM Help_Document
+        WHERE title like '%' #{title} '%' AND status > 0
+        ORDER BY updateTime DESC
+    </select>
+
+</mapper>
+

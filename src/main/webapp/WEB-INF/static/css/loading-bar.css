@@ -1,0 +1,60 @@
+.span-hover:hover {
+    cursor: pointer;
+    color: #3379b7;
+}
+
+[class*="text-area"] {
+    height: 150px;
+    width: 450px;
+}
+
+.mask-loading .loading-icon {
+    -webkit-animation: rotate 1s linear infinite;
+    -o-animation: rotate 1s linear infinite;
+    animation: rotate 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin: -20px 0 0 -20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #333 #333 #fff #fff;
+    opacity: .9;
+    border-radius: 25px;
+}
+@-webkit-keyframes rotate{
+    0% {-webkit-transform:rotate(0)}
+    100% {-webkit-transform:rotate(360deg)}
+}
+@keyframes rotate{
+    0% {transform:rotate(0)}
+    100% {transform:rotate(360deg)}
+}
+.mask-loading {
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:0 0;
+    z-index:9999;
+}
+
+label, .no-bottom{
+    margin-bottom: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+.nowrap {
+    text-align: left;
+    word-wrap: break-word;
+    word-break: normal;
+}

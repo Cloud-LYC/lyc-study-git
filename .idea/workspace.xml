@@ -6,18 +6,175 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8d1cd4-78cd-40b4-99a9-39ec5bbe1536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/utils/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/454fc1d1d2347a2d478cd701e1590e76e54d812d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a71682c120e1768d7a1a312cd0dea40cb0c84fa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/8485d4b4156df324a6d4f92b4be489e8cef34f32" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/8485d4b4156df324a6d4f92b4be489e8cef34f32" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af1c454c63e60f5169db469768975634e0cbcfb9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdadc8e2e4a376f009a27f0e5bc1399665cda511" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdadc8e2e4a376f009a27f0e5bc1399665cda511" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f00aa73588fbc487e9d71f9b050e1afd05231a7c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0a1056b3e43eaaff66acd2242cb150f41666a76" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0a1056b3e43eaaff66acd2242cb150f41666a76" afterDir="false" />
+    <list default="true" id="6d8d1cd4-78cd-40b4-99a9-39ec5bbe1536" name="Default Changelist" comment="帮助文档、有问题  跑不起来">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/helpdocument/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/helpdocument/controller/DocumentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/helpdocument/dao/HelpDocumentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/helpdocument/dto/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/helpdocument/dto/HelpDocumentWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/helpdocument/entity/HelpDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/helpdocument/service/HelpDocumentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/helpdocument/service/impl/HelpDocumentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/helpdocument/utils/Copier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/StringNumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/ExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/EncodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/UnZipInputStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/UnZipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/ZipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/Help_Document_SqlMap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.local/appcontext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/bootstrap-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/bootstrap-vue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/bootstrapValidator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/daterangepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/incentive/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/incentive/incentive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/iview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/jquery.pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/ladda-themeless.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/loading-bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/plugins/jquery.pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/plugins/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/plugins/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/simple-line-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/vue-multiselect.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/fonts/ionicons.24712f6.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/base/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/bootstrap-switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/bootstrap-vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/bootstrap.min3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/cron.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/daterangepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/iview.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/jquery.cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/ladda.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/loading-buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/polyfill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/vue-multiselect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/vue-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/query.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/unauthorized.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcome.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bad00fa0ccdf024065a3d83884496dd4c56f0c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3ce89c92d62b5ced570c0a10c9f6676d697981f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.local/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.local/appcontext-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/DepthActionTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/LightTest$Light.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/LightTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/MD5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/DepthAction/Miain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/DepthAction/MyMine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/DepthAction/UserDepthActionDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/Random/StringRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/enumexercise/ColorEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/enumexercise/ColorValueEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/enumexercise/EnumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/file/FileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/jdkUpdate/IPExt$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/jdkUpdate/IPExt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/list/ArrayList_LYC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/list/Find_half.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/list/LinkList_LYC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/list/TestTransient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/list/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/mana/mafka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/map/HashMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/network/DownloadFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/set/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/set/TestSubList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/set/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/tree/BTNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/tree/BinTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/tree/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/collection/tree/Test_class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/dateUtil/DateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/com/lyc/study/java8/MapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/mapper/userMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/properties/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/springmvc/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/classes/springmvc/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/aspectjweaver-1.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/fastjson-1.2.51.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/lombok-1.14.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/mybatis-3.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/mybatis-spring-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/mysql-connector-java-5.1.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-aop-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-aspects-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-beans-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-context-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-context-support-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-core-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-expression-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-jcl-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-jdbc-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-tx-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-web-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/lib/spring-webmvc-5.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/view/userInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.lyc/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +183,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lyc_study_git$Client.ic" NAME="Client Coverage Results" MODIFIED="1551928177159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lyc.study.threadexercise.asynchronous.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -61,62 +223,79 @@
     <session id="-2028560336">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
-          <entry key="project.open.time.1" value="10" />
+          <entry key="project.closed" value="46" />
+          <entry key="project.open.time.1" value="14" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="11" />
-          <entry key="project.open.time.3" value="5" />
-          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.2" value="16" />
+          <entry key="project.open.time.3" value="9" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="MF" value="2" />
-          <entry key="class" value="3" />
-          <entry key="java" value="72" />
-          <entry key="jsp" value="3" />
-          <entry key="md" value="3" />
-          <entry key="properties" value="3" />
+          <entry key="MF" value="3" />
+          <entry key="class" value="9" />
+          <entry key="css" value="2" />
+          <entry key="ftl" value="6" />
+          <entry key="html" value="2" />
+          <entry key="java" value="116" />
+          <entry key="js" value="2" />
+          <entry key="jsp" value="6" />
+          <entry key="md" value="4" />
+          <entry key="properties" value="4" />
           <entry key="sql" value="5" />
+          <entry key="svg" value="1" />
           <entry key="user" value="1" />
-          <entry key="xml" value="21" />
+          <entry key="vmoptions" value="1" />
+          <entry key="xml" value="43" />
           <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
+          <entry key="CLASS" value="9" />
+          <entry key="CSS" value="2" />
           <entry key="Database Element" value="1" />
-          <entry key="JAVA" value="72" />
-          <entry key="JSP" value="3" />
-          <entry key="Manifest" value="2" />
-          <entry key="Markdown" value="3" />
-          <entry key="Properties" value="3" />
+          <entry key="FTL" value="6" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="116" />
+          <entry key="JSP" value="6" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Manifest" value="3" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="4" />
           <entry key="SQL" value="4" />
+          <entry key="SVG" value="1" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="22" />
+          <entry key="XML" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3855" />
+          <entry key="ftl" value="5" />
+          <entry key="java" value="5344" />
           <entry key="jsp" value="60" />
+          <entry key="md" value="123" />
           <entry key="properties" value="15" />
           <entry key="sql" value="3" />
-          <entry key="txt" value="93" />
-          <entry key="xml" value="153" />
+          <entry key="txt" value="124" />
+          <entry key="xml" value="208" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3855" />
+          <entry key="FTL" value="5" />
+          <entry key="JAVA" value="5344" />
           <entry key="JSP" value="60" />
-          <entry key="PLAIN_TEXT" value="93" />
+          <entry key="Markdown" value="123" />
+          <entry key="PLAIN_TEXT" value="124" />
           <entry key="Properties" value="15" />
           <entry key="SQL" value="3" />
-          <entry key="XML" value="153" />
+          <entry key="XML" value="208" />
         </counts>
       </usages-collector>
     </session>
@@ -124,10 +303,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/eruptSimultaneously/MethodParam.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/ZipTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="935">
+              <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,32 +314,92 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/UnZipTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/UnZipInputStreamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/utils/JsonUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringNumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="103">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="YarmPluginDependencyUpdater" />
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/FileOutputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="151" column="28" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
+            <state relative-caret-position="2312">
+              <caret line="160" column="11" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
             </state>
           </provider>
-          <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/TestThread.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/File.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="34255">
+              <caret line="2066" column="22" selection-start-line="2066" selection-start-column="18" selection-end-line="2066" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Enumeration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -180,6 +419,8 @@
       <find>compa</find>
       <find>comp</find>
       <find>Big</find>
+      <find>排</find>
+      <find>sort</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,26 +429,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/user2Mapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/sql/demo.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userInfo.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/DepthActionTypeEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/MD5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/collection/map/HashMapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/collection/file/FileTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/utils/StringUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/utils/MobileNoUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/zhengze/http.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/eruptSimultaneously/MethodParam.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/sort/SleepSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/Entity/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/model/UserDTO.java" />
@@ -228,8 +449,37 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/java8/MapSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/TestThread.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpdocument/utils/Copier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpdocument/entity/HelpDocument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpdocument/dao/HelpDocumentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpdocument/dto/CommonResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpdocument/dto/HelpDocumentWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpdocument/service/HelpDocumentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpdocument/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/document/add.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/document/query.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/404.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dashboard.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/unauthorized.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/helpdocument/service/impl/HelpDocumentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpdocument/controller/DocumentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/Help_Document_SqlMap.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring.local/application.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/helpdocument/dao/HelpDocumentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/helpdocument/controller/DocumentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/helpdocument/service/impl/HelpDocumentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring.local/appcontext-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/ExecutorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/EncodeUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/ZipTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/UnZipTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/UnZipInputStreamTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/StringNumTest.java" />
       </list>
     </option>
   </component>
@@ -253,10 +503,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1593" />
-    <option name="y" value="-2" />
-    <option name="width" value="1767" />
-    <option name="height" value="833" />
+    <option name="x" value="-22" />
+    <option name="y" value="22" />
+    <option name="width" value="1464" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -273,6 +523,9 @@
             <id>Java</id>
           </State>
           <State>
+            <id>Mybatis</id>
+          </State>
+          <State>
             <id>SecurityJava</id>
           </State>
           <State>
@@ -281,7 +534,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>SerializableHasSerialVersionUIDField</id>
+            <id>MybatisMapperXmlInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -296,6 +549,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,6 +581,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyc-study-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyc-study-git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lyc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,8 +598,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lyc" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lyc-study-git" type="b2602c69:ProjectViewProjectNode" />
@@ -345,43 +609,62 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lyc-study-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyc-study-git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyc-study-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyc-study-git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548324209479" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553514294814" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/springmvc" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lyc.utils" />
-      <recent name="com.lyc.study.java8" />
-      <recent name="com.lyc.study.dateUtil" />
-      <recent name="com.lyc.study" />
+      <recent name="helpdocument.controller" />
+      <recent name="helpdocument.dto" />
+      <recent name="helpdocument.service.impl" />
+      <recent name="helpdocument.service" />
+      <recent name="helpdocument.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/lyc/study" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
+      <recent name="$PROJECT_DIR$/src/main/resources/spring.local" />
+      <recent name="$PROJECT_DIR$/src/main/resources/springmvc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,13 +679,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBigdecimal">
-    <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.dateUtil.DateTest" />
+  <component name="RunManager" selected="Application.StringNumTest">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.threadexercise.asynchronous.Client" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.study.dateUtil.*" />
+          <option name="PATTERN" value="com.lyc.study.threadexercise.asynchronous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,8 +693,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.MD5" />
+    <configuration name="StringNumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.StringNumTest" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
@@ -423,12 +706,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.StringTest" />
+    <configuration name="UnZipInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.zipTest.UnZipInputStreamTest" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.study.enums.*" />
+          <option name="PATTERN" value="com.lyc.study.zipTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -436,12 +719,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBigdecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.bigDecimal.TestBigdecimal" />
+    <configuration name="UnZipTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.zipTest.UnZipTest" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.study.bigDecimal.*" />
+          <option name="PATTERN" value="com.lyc.study.zipTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -449,18 +732,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTest.testGetStratrTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZipTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.zipTest.ZipTest" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.study.dateUtil.*" />
+          <option name="PATTERN" value="com.lyc.study.zipTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lyc.study.dateUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.dateUtil.DateTest" />
-      <option name="METHOD_NAME" value="testGetStratrTime" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -539,19 +819,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Web" />
-      <item itemvalue="Application.StringTest" />
-      <item itemvalue="JUnit.DateTest.testGetStratrTime" />
-      <item itemvalue="Application.DateTest" />
-      <item itemvalue="Application.TestBigdecimal" />
-      <item itemvalue="Application.MD5" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.ZipTest" />
+      <item itemvalue="Application.UnZipTest" />
+      <item itemvalue="Application.UnZipInputStreamTest" />
+      <item itemvalue="Application.StringNumTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestBigdecimal" />
-        <item itemvalue="Application.MD5" />
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.DateTest" />
-        <item itemvalue="JUnit.DateTest.testGetStratrTime" />
+        <item itemvalue="Application.StringNumTest" />
+        <item itemvalue="Application.UnZipInputStreamTest" />
+        <item itemvalue="Application.UnZipTest" />
+        <item itemvalue="Application.ZipTest" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -594,7 +874,23 @@
       <workItem from="1547801095313" duration="216000" />
       <workItem from="1548147406798" duration="6639000" />
       <workItem from="1548324091440" duration="114000" />
-      <workItem from="1548641773843" duration="1476000" />
+      <workItem from="1548641773843" duration="2815000" />
+      <workItem from="1548679851988" duration="242000" />
+      <workItem from="1548680205566" duration="1489000" />
+      <workItem from="1548750470208" duration="30000" />
+      <workItem from="1548750507302" duration="4480000" />
+      <workItem from="1550051908777" duration="10000" />
+      <workItem from="1551099052783" duration="298000" />
+      <workItem from="1551168007626" duration="48000" />
+      <workItem from="1551927389395" duration="841000" />
+      <workItem from="1551951232502" duration="3015000" />
+      <workItem from="1551957683896" duration="1872000" />
+      <workItem from="1552357185949" duration="5318000" />
+      <workItem from="1552468860648" duration="3674000" />
+      <workItem from="1552484611376" duration="2799000" />
+      <workItem from="1552539034673" duration="4561000" />
+      <workItem from="1553415480535" duration="600000" />
+      <workItem from="1553492730959" duration="1751000" />
     </task>
     <task id="LOCAL-00001" summary="随机double两位小数位">
       <created>1539854533338</created>
@@ -638,7 +934,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548152261653</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="jsonUtils">
+      <created>1548645169364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548645169365</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -674,13 +977,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48760000" />
+    <option name="totallyTimeSpent" value="81127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1593" y="-2" width="1767" height="833" extended-state="0" />
-    <editor active="true" />
+    <frame x="-22" y="22" width="1464" height="827" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26871735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3105634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -690,18 +992,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5254027" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28830084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5229244" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.42837077" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.32928064" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20891365" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20891365" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32729805" />
-      <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info anchor="bottom" id="SonarLint" order="13" show_stripe_button="false" weight="0.3286908" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
@@ -718,6 +1020,7 @@
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info active="true" anchor="right" id="Coverage" order="13" side_tool="true" visible="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -732,7 +1035,27 @@
     <MESSAGE value="并发查询" />
     <MESSAGE value="nothing" />
     <MESSAGE value="Copier bean  DTO 小数点后几位处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Copier bean  DTO 小数点后几位处理" />
+    <MESSAGE value="jsonUtils" />
+    <MESSAGE value="帮助文档、有问题  跑不起来" />
+    <option name="LAST_COMMIT_MESSAGE" value="帮助文档、有问题  跑不起来" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/ZipTest.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/UnZipTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -754,171 +1077,239 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>StringUtils.isBlank(validText)</expression-string>
+        <expression-string>name.substring((name.length()-7), name.length())</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>stringJson instanceof JSONArray</expression-string>
+        <expression-string>matcher.group(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sb ==0</expression-string>
+        <expression-string>matcher.group(1)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sd</expression-string>
+        <expression-string>matcher.group(2)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>user.getLatitude() == 0.0</expression-string>
+        <expression-string>entry.getUnparseableExtraFieldData()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>user.getLatitude() == 0.000000</expression-string>
+        <expression-string>entry.getRawName().toString()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>user.getLatitude() == 0.00</expression-string>
+        <expression-string>entry.getRawName()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>user.getLatitude() == 0.001</expression-string>
+        <expression-string>entry.getNameSource()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>user.getLatitude() == 0</expression-string>
+        <expression-string>entry.getAllExtraFields()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zhengze.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/collections/google-collections/1.0/google-collections-1.0.jar!/com/google/common/collect/Lists.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="128" column="36" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/collections/google-collections/1.0/google-collections-1.0-sources.jar!/com/google/common/collect/Lists.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zhengze/http.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/fonts/ionicons.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/plugins/swiper.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="187">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar!/org/joda/time/format/DateTimeFormat.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar!/org/joda/time/base/AbstractInstant.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar!/org/joda/time/format/DateTimeFormat.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/utils/MobileNoUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="2237" column="18" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="703" column="68" selection-start-line="703" selection-start-column="68" selection-end-line="703" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/model/UserDTO.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.1.RELEASE/spring-core-5.1.1.RELEASE.jar!/org/springframework/cglib/beans/BeanCopier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/dto/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/sql/demo.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="4" column="1443" lean-forward="true" selection-start-line="4" selection-start-column="1443" selection-end-line="4" selection-end-column="1443" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc/spring-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/base/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="58" column="58" lean-forward="true" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+        <state relative-caret-position="425">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="391">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.14.8/lombok-1.14.8.jar!/lombok/extern/slf4j/XSlf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.14.8/lombok-1.14.8.jar!/lombok/extern/java/Log.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc/application.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dashboard.ftl" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcome.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/unauthorized.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.1.RELEASE/spring-web-5.1.1.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/helpdocument/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.local/appcontext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/helpdocument/dao/HelpDocumentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/entity/UserEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Help_Document_SqlMap.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.local/application.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/helpdocument/controller/DocumentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="165" column="31" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/helpdocument/service/HelpDocumentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/helpdocument/service/impl/HelpDocumentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.1.RELEASE/spring-context-5.1.1.RELEASE.jar!/org/springframework/scheduling/annotation/ProxyAsyncConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -931,199 +1322,164 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/enums/DepthActionTypeEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="170">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/utils/Copier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="77" column="35" lean-forward="true" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/sort/SleepSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/java8/MapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/list/Find_half.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/list/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        <state relative-caret-position="493">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/list/ArrayList_LYC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="1173">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/jdkUpdate/IPExt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="197" column="13" lean-forward="true" selection-start-line="197" selection-start-column="13" selection-end-line="197" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/set/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/set/MyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/enumexercise/EnumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/enumexercise/ColorValueEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/enumexercise/ColorEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/file/FileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/LightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/collection/set/TestSubList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/移动官网.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/eruptSimultaneously/MethodParam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="425">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/ExecutorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider editor-type-id="YarmPluginDependencyUpdater" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3094">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/EncodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="93" selection-start-line="34" selection-start-column="93" selection-end-line="34" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8058">
+          <caret line="526" column="26" selection-start-line="526" selection-start-column="26" selection-end-line="526" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar!/org/apache/commons/compress/utils/IOUtils.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/ZipTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/TestThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/UnZipTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="459">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/FileOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="151" column="28" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
+        <state relative-caret-position="2312">
+          <caret line="160" column="11" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
         </state>
       </provider>
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/utils/JsonUtils.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="34255">
+          <caret line="2066" column="22" selection-start-line="2066" selection-start-column="18" selection-end-line="2066" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/asynchronous/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/UnZipInputStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringNumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
