@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8d1cd4-78cd-40b4-99a9-39ec5bbe1536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/danli/PrivilegeSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/danli/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/java8/StreamStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/json/TestJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,15 +57,15 @@
     <session id="-2028560336">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="55" />
+          <entry key="project.closed" value="59" />
           <entry key="project.open.time.1" value="15" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.2" value="22" />
-          <entry key="project.open.time.3" value="11" />
-          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.2" value="24" />
+          <entry key="project.open.time.3" value="12" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="57" />
+          <entry key="project.opened" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,7 +75,7 @@
           <entry key="css" value="2" />
           <entry key="ftl" value="6" />
           <entry key="html" value="2" />
-          <entry key="java" value="124" />
+          <entry key="java" value="126" />
           <entry key="js" value="2" />
           <entry key="jsp" value="6" />
           <entry key="md" value="4" />
@@ -99,7 +95,7 @@
           <entry key="Database Element" value="1" />
           <entry key="FTL" value="6" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="124" />
+          <entry key="JAVA" value="126" />
           <entry key="JSP" value="6" />
           <entry key="JavaScript" value="2" />
           <entry key="Manifest" value="3" />
@@ -115,7 +111,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ftl" value="5" />
-          <entry key="java" value="5612" />
+          <entry key="java" value="5677" />
           <entry key="jsp" value="60" />
           <entry key="md" value="123" />
           <entry key="properties" value="15" />
@@ -127,7 +123,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="FTL" value="5" />
-          <entry key="JAVA" value="5612" />
+          <entry key="JAVA" value="5677" />
           <entry key="JSP" value="60" />
           <entry key="Markdown" value="123" />
           <entry key="PLAIN_TEXT" value="135" />
@@ -141,28 +137,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/java8/MapSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+            <state relative-caret-position="374">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/java8/StreamStudy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="952">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/json/TestJson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,8 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/eruptSimultaneously/MethodParam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="294">
+              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -247,8 +246,8 @@
       <find>Big</find>
       <find>排</find>
       <find>sort</find>
-      <find>分批</find>
       <find>小数</find>
+      <find>分批</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -257,7 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/Entity/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/entity/UserBean.java" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc/spring-mvc.xml" />
@@ -308,6 +306,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/java8/StreamStudy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/dto/UserDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/study/json/TestJson.java" />
       </list>
     </option>
   </component>
@@ -331,9 +330,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="827" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-84" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -375,7 +375,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -428,33 +428,11 @@
               <item name="lyc" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lyc-study-git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyc-study-git" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lyc" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="bigDecimal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyc-study-git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyc-study-git" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lyc" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -463,7 +441,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556162965547" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558579210151" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -505,7 +483,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBigdecimal">
+  <component name="RunManager" selected="Application.TestJson">
     <configuration name="StringNumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyc.study.StringNumTest" />
       <module name="lyc-study-git" />
@@ -532,12 +510,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnZipInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.zipTest.UnZipInputStreamTest" />
+    <configuration name="TestJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.json.TestJson" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.study.zipTest.*" />
+          <option name="PATTERN" value="com.lyc.study.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -545,8 +523,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnZipTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.zipTest.UnZipTest" />
+    <configuration name="UnZipInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.zipTest.UnZipInputStreamTest" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
@@ -645,19 +623,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Web" />
-      <item itemvalue="Application.UnZipTest" />
       <item itemvalue="Application.UnZipInputStreamTest" />
       <item itemvalue="Application.StringNumTest" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.TestBigdecimal" />
+      <item itemvalue="Application.TestJson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestJson" />
         <item itemvalue="Application.TestBigdecimal" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.StringNumTest" />
         <item itemvalue="Application.UnZipInputStreamTest" />
-        <item itemvalue="Application.UnZipTest" />
       </list>
     </recent_temporary>
   </component>
@@ -726,7 +704,11 @@
       <workItem from="1555155239517" duration="864000" />
       <workItem from="1555417541721" duration="1773000" />
       <workItem from="1555493071592" duration="241000" />
-      <workItem from="1556162016228" duration="440000" />
+      <workItem from="1556162016228" duration="996000" />
+      <workItem from="1557906250302" duration="842000" />
+      <workItem from="1557907877260" duration="98000" />
+      <workItem from="1557908217726" duration="243000" />
+      <workItem from="1558509853901" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="随机double两位小数位">
       <created>1539854533338</created>
@@ -784,7 +766,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553515824546</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="一些有用的Demo">
+      <created>1556163040935</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556163040935</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -820,13 +809,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88486000" />
+    <option name="totallyTimeSpent" value="90828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-1920" y="-84" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4047278" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3107676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -837,7 +826,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5229244" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4275093" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4275093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -901,7 +890,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java</url>
-          <line>32</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -980,13 +969,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.14.8/lombok-1.14.8.jar!/lombok/extern/slf4j/XSlf4j.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1174,14 +1156,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3094">
           <caret line="182" selection-start-line="182" selection-end-line="182" />
         </state>
       </provider>
       <provider editor-type-id="YarmPluginDependencyUpdater" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/zipTest/EncodeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1260,13 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/java8/MapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1281,10 +1256,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/eruptSimultaneously/MethodParam.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
@@ -1330,10 +1312,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/threadexercise/eruptSimultaneously/MethodParam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="294">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/study/json/TestJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
