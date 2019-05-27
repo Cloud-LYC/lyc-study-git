@@ -17,6 +17,20 @@ import java.util.Random;
 public class TestBigdecimal {
     public static void main(String[] args) {
 
+
+//        dealRandom();
+
+        addBigDecimal();
+//        dealBigDecimal();
+
+    }
+
+
+    /**
+     * 随机
+     */
+
+    public static void dealRandom(){
         //随机
         Random random = new Random();
         System.out.print(random.nextInt(12)+1+"\t");
@@ -24,10 +38,25 @@ public class TestBigdecimal {
         UserDTO userDto = new UserDTO();
 
         if (userDto.getLatitude() == 0)
-        System.out.println(userDto);
+            System.out.println(userDto);
+    }
 
-        dealBigDecimal();
 
+    /**
+     * 处理BigDecimal相加
+     */
+    public static void addBigDecimal(){
+
+        // 初始化
+        BigDecimal source = new BigDecimal(0);
+        //相加
+
+        source = source.add(new BigDecimal(1));
+
+        source = source.add(new BigDecimal(2.23657830));
+        //输出
+
+        System.out.println(source.floatValue());
     }
 
 
