@@ -131,4 +131,15 @@ public class DateTest {
         }
         return sdf;
     }
+
+
+
+    @Test
+    public void getYesterdayTime() {
+        Date nowDate = new DateTime(new Date()).withTimeAtStartOfDay().plusMillis(-1).toDate();
+
+        SimpleDateFormat df = new SimpleDateFormat(YYYY_MM_DD_HH_MM_SS);//设置日期格式
+
+        System.out.println(df.format(new DateTime(new Date()).withTimeAtStartOfDay().plusMillis(-1).toDate()));
+    }
 }

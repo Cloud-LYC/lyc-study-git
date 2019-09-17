@@ -33,12 +33,12 @@ public class TestBigdecimal {
     public static void dealRandom(){
         //随机
         Random random = new Random();
-        System.out.print(random.nextInt(12)+1+"\t");
+        /*System.out.print(random.nextInt(12)+1+"\t");
 
         UserDTO userDto = new UserDTO();
 
         if (userDto.getLatitude() == 0)
-            System.out.println(userDto);
+            System.out.println(userDto);*/
     }
 
 

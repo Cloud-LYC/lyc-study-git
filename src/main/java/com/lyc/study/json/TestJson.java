@@ -2,6 +2,10 @@ package com.lyc.study.json;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.google.common.collect.Lists;
+import com.lyc.dto.UserDTO;
+
+import java.util.List;
 
 /**
  * create by Intellij IDEA.
@@ -14,12 +18,33 @@ import com.alibaba.fastjson.JSONObject;
 public class TestJson {
 
     public static void main(String[] args) {
-        String source = "{\"workflowStatus\":{\"abroad\":0,\"addUser\":\"20094364\",\"address\":\"淞虹路660号\",\"createTime\":1557816411000,\"detailCode\":\"S00001\",\"dpId\":130328905,\"flowId\":193859415,\"flowType\":7,\"isAppeal\":0,\"lastProcType\":\"createShop\",\"mtId\":141434468,\"operationType\":2,\"organization\":\"DIANPING\",\"phone\":\"\",\"poiId\":160057009,\"procList\":[{\"createTime\":1557904135471,\"procId\":160057009,\"procStatus\":1,\"procType\":\"notify\",\"reason\":\"final success\",\"result\":\"success\",\"updateTime\":1557904135485}],\"procType\":\"notify\",\"reason\":\"{\\\"info\\\":[\\\"success\\\"]}\",\"role\":1,\"shopName\":\"王小二的烧烤店\",\"source\":\"DIANPING\",\"sourceCode\":\"00000001\",\"stage\":\"success\",\"subSource\":\"BGC\",\"updateTime\":1557904135186},\"sendTime\":1557904135487}";
 
-        JSONObject jsonObject = JSON.parseObject(source);
-        Integer dpShopId = Integer.valueOf(jsonObject.getJSONObject("workflowStatus").getString("dpId"));
+        /*List<UserDTO> resource = Lists.newArrayList(UserDTO.builder().userName("1").build(),
+                UserDTO.builder().userName("2").build(),
+                UserDTO.builder().userName("3").build(),
+                UserDTO.builder().userName("4").build(),
+                UserDTO.builder().userName("5").build());
 
-        System.out.println("23333");
+        String jsonStr = JSON.toJSONString(resource);
+
+        List<UserDTO> result = JSON.parseArray(jsonStr, UserDTO.class);
+
+        System.out.println(result);
+
+
+        String sourceString = "{\"parkingInfo\":{\"free\":false,\"chargeInfo\":\"收费标准，每小时15元\"},\"serviceInfo\":[{\"icon\":\"https://p0.meituan.net/dpnewvc/97089d2128eb46653da120352b2b8c601393.png\",\"title\":\"1楼服务台\",\"showLocation\":false,\"iconLight\":\"https://p1.meituan.net/dpnewvc/8313ac3ba7da655967d6a5200f1dc4e42878.png\"}]}";
+
+        JSONObject jsonObject = JSON.parseObject(sourceString);
+
+        System.out.println("");*/
+
+
+
+        List<String>  sources = Lists.newArrayList("1", "2", "3", "4", "5");
+
+        System.out.println(sources.subList(0,3));
+
+
 
     }
 }
