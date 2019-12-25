@@ -181,6 +181,13 @@
       <version>1.18</version>
     </dependency>
 
+    <!--繁体-->
+    <dependency>
+      <groupId>net.sourceforge.pinyin4j</groupId>
+      <artifactId>pinyin4j</artifactId>
+      <version>2.5.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>
