@@ -22,6 +22,7 @@ public class MethodParam {
     /**
      * 在批量查例如用户信息的时候会遇到传参（userIds）如果过多，会出现超时的情况
      * 此时可以将其进行分批、并发查询
+     * 批量并发
      */
 
     public List<UserDTO> getUsersByIds(List<Integer> userIdList){
