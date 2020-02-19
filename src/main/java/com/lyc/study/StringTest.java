@@ -23,6 +23,9 @@ import java.util.regex.Pattern;
 public class StringTest {
     public static void main(String[] args) {
 
+        String urlTest = String.format("dianping://takeawaydishlist?source=3&dpSource=14&lng=%f&lat=%f&mtwmpoiid=%s", 2.3,2.4, 1234567890);
+
+        System.out.println(urlTest);
 
        /* String name = "王小二哈哈哈哈";
         String replaceAll = name.replaceAll("(?<=.{1}).(?=.{1})", "*");
@@ -69,7 +72,7 @@ public class StringTest {
         System.out.println(StringUtils.isBlank(validText));*/
 
 
-        getslip();
+//        getslip();
 
     }
 
