@@ -1,4 +1,4 @@
-package com.lyc.study;
+package com.lyc.study.stringtest;
 
 import org.apache.commons.lang.StringUtils;
 

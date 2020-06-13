@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="internal-releases" />
+      <option name="name" value="internal repository for released artifacts" />
+      <option name="url" value="http://mvn.dianpingoa.com/dprepo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="virtual-public-repos" />
+      <option name="name" value="virtual-public-repos" />
+      <option name="url" value="http://mvn.dianpingoa.com/dprepo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://mvn.dianpingoa.com/dprepo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="internal-snapshots" />
+      <option name="name" value="internal repository for snapshots artifacts" />
+      <option name="url" value="http://mvn.dianpingoa.com/dprepo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+  </component>
+</project>

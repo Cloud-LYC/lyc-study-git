@@ -1,4 +1,4 @@
-package com.lyc.study;
+package com.lyc.study.stringtest;
 
 import java.security.MessageDigest;
 

@@ -1,20 +1,23 @@
 package com.lyc.study.collection.set;
 
+import lombok.Data;
+import lombok.experimental.Builder;
+
+import java.util.Date;
+
 /**
  * @Author: liyuanchi
  * @Description:
  * @Date: 15:10 2017/12/21
  */
+@Builder
 public class User {
     private String userName;
     private int age;
+    private Date birth;
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "userName='" + userName + '\'' +
-                ", age=" + age +
-                '}';
+    public User() {
+
     }
 
     public String getUserName() {
@@ -31,5 +34,19 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public User(String userName, int age, Date birth) {
+        this.userName = userName;
+        this.age = age;
+        this.birth = birth;
+    }
+
+    public Date getBirth() {
+        return birth;
+    }
+
+    public void setBirth(Date birth) {
+        this.birth = birth;
     }
 }

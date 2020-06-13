@@ -1,5 +1,7 @@
 package com.lyc.study.dateUtil;
 
+import com.google.common.collect.Lists;
+import com.lyc.study.collection.set.User;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.junit.jupiter.api.Test;
@@ -94,6 +96,30 @@ public class DateTest {
 
     }
 
+    /*@Test
+    public void testDateSort() throws Exception{
+        List<String> weekenddate = new ArrayList<>();
+        SimpleDateFormat df = new SimpleDateFormat(YYYY_MM_DD);//设置日期格式
+
+        weekenddate.add("2018-11-18");
+        weekenddate.add("2018-11-11");
+        weekenddate.add("2018-11-04");
+        weekenddate.add("2018-10-28");
+        weekenddate.add("2018-11-21");
+        List<User> users = Lists.newArrayList(
+                User.builder().userName(weekenddate.get(0)).birth(new SimpleDateFormat("yyyy-MM-dd").parse(weekenddate.get(0))).build(),
+                User.builder().userName(weekenddate.get(1)).birth(new SimpleDateFormat("yyyy-MM-dd").parse(weekenddate.get(1))).build(),
+                User.builder().userName(weekenddate.get(2)).birth(new SimpleDateFormat("yyyy-MM-dd").parse(weekenddate.get(2))).build(),
+                User.builder().userName(weekenddate.get(3)).birth(new SimpleDateFormat("yyyy-MM-dd").parse(weekenddate.get(3))).build(),
+                User.builder().userName(weekenddate.get(4)).birth(new SimpleDateFormat("yyyy-MM-dd").parse(weekenddate.get(4))).build()
+                );
+
+        users.sort(Comparator.comparing(User::getBirth).reversed());
+
+        System.out.println(2);
+
+    }*/
+
 
 
     @Test
@@ -142,4 +168,6 @@ public class DateTest {
 
         System.out.println(df.format(new DateTime(new Date()).withTimeAtStartOfDay().plusMillis(-1).toDate()));
     }
+
+
 }

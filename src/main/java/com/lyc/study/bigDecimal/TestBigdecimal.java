@@ -1,9 +1,14 @@
 package com.lyc.study.bigDecimal;
 
 
+import com.alibaba.fastjson.JSON;
+import com.google.common.collect.Lists;
 import com.lyc.dto.UserDTO;
 
 import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
 
 /**
@@ -16,6 +21,22 @@ import java.util.Random;
  */
 public class TestBigdecimal {
     public static void main(String[] args) {
+
+
+
+
+
+        Map<String, String> privilegeMap = new HashMap<>();
+        List<Integer> privileges = Lists.newArrayList(1,2,3);
+
+        System.out.println(privileges.subList(0,2));
+
+        privilegeMap.put("privilegeIds", JSON.toJSONString(privileges));
+
+
+        int w = 1920;
+        int h = 1080;
+
 
 
 //        dealRandom();

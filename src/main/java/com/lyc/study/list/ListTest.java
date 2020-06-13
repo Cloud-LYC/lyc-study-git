@@ -4,10 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
 import com.lyc.study.sort.ListNode;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * create by Intellij IDEA.
@@ -35,6 +32,8 @@ public class ListTest {
         testList();
 
         testList2();
+
+        testList3();
 
         List<List<Integer>> typeLists = new ArrayList<>();
         typeLists.add(Lists.newArrayList(1,2,3));
@@ -76,7 +75,7 @@ public class ListTest {
 
     public static void testList() {
         List<Integer> a = Lists.newArrayList(1,2,3,4,5);
-        List<Integer> b = Lists.newArrayList(4,5,6,7);
+        List<Integer> b = Lists.newArrayList(4,5);
 
         boolean b1 = a.containsAll(b);
         System.out.println(a);
@@ -89,6 +88,23 @@ public class ListTest {
 
 
         b.addAll(a.subList(0,5));
+
+        System.out.println(b);
+
+    }
+
+
+    public static void testList3() {
+        Set<Integer> c = new HashSet<>();
+        c.add(1);
+        c.add(2);
+        c.add(3);
+        c.add(4);
+        List<Integer> a = Lists.newArrayList(3,4,5);
+        c.removeAll(a);
+
+        List<Integer> b =  new ArrayList<>(c);
+
 
         System.out.println(b);
 

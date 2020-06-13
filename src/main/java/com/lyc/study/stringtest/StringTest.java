@@ -1,16 +1,18 @@
-package com.lyc.study;
+package com.lyc.study.stringtest;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import org.json.JSONTokener;
 import org.junit.platform.commons.util.StringUtils;
 import org.springframework.util.CollectionUtils;
+import org.springframework.web.util.UriUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 
 /**
  * create by Intellij IDEA.
@@ -22,6 +24,18 @@ import java.util.regex.Pattern;
  */
 public class StringTest {
     public static void main(String[] args) {
+
+        String videoUrl = "https://aghduiasndioashjndoi.mp4";
+
+
+        String url = "啊发的前端撒saf地方sdgf改版";
+
+
+        String encode = UriUtils.encode(url, "utf-8");
+
+
+        System.out.println(videoUrl.substring(videoUrl.lastIndexOf('.')));
+
 
         String urlTest = String.format("dianping://takeawaydishlist?source=3&dpSource=14&lng=%f&lat=%f&mtwmpoiid=%s", 2.3,2.4, 1234567890);
 
