@@ -7,23 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8d1cd4-78cd-40b4-99a9-39ec5bbe1536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/filetest/FileTestStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8487c8b0-6d2a-40b9-8f0a-eb670c04c2ea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8487c8b0-6d2a-40b9-8f0a-eb670c04c2ea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/stringtest/DecodeString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/bigDecimal/TestBigdecimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/study/collection/set/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/collection/set/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/dateUtil/DateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/study/list/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/list/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/StringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/bigDecimal/TestBigdecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/bigDecimal/TestBigdecimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/set/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/collection/set/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/dateUtil/DateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/dateUtil/DateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/list/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/list/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/MD5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/StringNumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/StringTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +156,20 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringTest">
+  <component name="RunManager" selected="Application.DecodeString">
+    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.stringtest.DecodeString" />
+      <module name="lyc-study-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyc.study.stringtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyc.study.list.ListTest" />
       <module name="lyc-study-git" />
@@ -188,19 +189,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lyc.study.stringtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBigdecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.bigDecimal.TestBigdecimal" />
-      <module name="lyc-study-git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyc.study.bigDecimal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,19 +303,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ListTest" />
-      <item itemvalue="Application.TestBigdecimal" />
       <item itemvalue="Application.StringTest" />
       <item itemvalue="JUnit.DateTest.testDateSort" />
       <item itemvalue="JUnit.DateTest.testDatSe" />
       <item itemvalue="Tomcat Server.Web" />
+      <item itemvalue="Application.DecodeString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecodeString" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="JUnit.DateTest.testDatSe" />
         <item itemvalue="JUnit.DateTest.testDateSort" />
-        <item itemvalue="Application.TestBigdecimal" />
       </list>
     </recent_temporary>
   </component>
@@ -454,6 +442,7 @@
       <workItem from="1588820803320" duration="1704000" />
       <workItem from="1589426353358" duration="1997000" />
       <workItem from="1591876492373" duration="1448000" />
+      <workItem from="1592039858635" duration="3092000" />
     </task>
     <task id="LOCAL-00001" summary="随机double两位小数位">
       <created>1539854533338</created>
@@ -560,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582103095080</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1592039964028</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592039964028</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +588,58 @@
     <MESSAGE value="一些示例" />
     <MESSAGE value="汉字首字母提取" />
     <MESSAGE value="code clean" />
-    <option name="LAST_COMMIT_MESSAGE" value="code clean" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1197" y="105" key="#xdebugger.evaluate" timestamp="1592044136096">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state x="-1197" y="105" key="#xdebugger.evaluate/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044136096" />
+    <state x="297" y="27" key="CommitChangelistDialog2" timestamp="1592039963750">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="27" key="CommitChangelistDialog2/0.0.1440.900/-1920.-145.1920.1080@0.0.1440.900" timestamp="1592039963750" />
+    <state width="1878" height="388" key="GridCell.Tab.0.bottom" timestamp="1592044022607">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="388" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022607" />
+    <state width="1878" height="388" key="GridCell.Tab.0.center" timestamp="1592044022603">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="388" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022603" />
+    <state width="1878" height="388" key="GridCell.Tab.0.left" timestamp="1592044022601">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="388" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022601" />
+    <state width="1878" height="388" key="GridCell.Tab.0.right" timestamp="1592044022605">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="388" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022605" />
+    <state width="1878" height="388" key="GridCell.Tab.1.bottom" timestamp="1592044022612">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="388" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022612" />
+    <state width="1878" height="388" key="GridCell.Tab.1.center" timestamp="1592044022610">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="388" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022610" />
+    <state width="1878" height="388" key="GridCell.Tab.1.left" timestamp="1592044022609">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="388" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022609" />
+    <state width="1878" height="388" key="GridCell.Tab.1.right" timestamp="1592044022611">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="388" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022611" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592039965590">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-145.1920.1080@0.0.1440.900" timestamp="1592039965590" />
+    <state x="-1295" y="96" width="670" height="676" key="search.everywhere.popup" timestamp="1592042151913">
+      <screen x="-1920" y="-145" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="96" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592042151913" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -638,9 +685,19 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/StringTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/stringtest/StringTest.java</url>
           <line>33</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/stringtest/DecodeString.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/stringtest/DecodeString.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
