@@ -1,4 +1,4 @@
-package com.lyc.study.stringtest;
+package com.lyc.study.leetcode.no394;
 
 import java.util.Stack;
 

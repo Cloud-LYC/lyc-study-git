@@ -2,9 +2,11 @@ package com.lyc.study.list;
 
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
-import com.lyc.study.sort.ListNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * create by Intellij IDEA.
