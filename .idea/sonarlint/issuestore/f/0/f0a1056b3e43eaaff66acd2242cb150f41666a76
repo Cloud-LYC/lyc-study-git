@@ -1,15 +1,0 @@
-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(úúÍŒûÿÿÿÿ8ýôêŸõ,
-|squid:S1488T"^Immediately return this expression instead of assigning it to the temporary variable "result".(ãÉ°Ú8™âÄ¸ï,
-Csquid:S1481"&Remove this unused "a" local variable.(Žð—c8ýôêŸõ,
-nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(ŒÂ²ƒþÿÿÿÿ8¤×¦‡-
-nsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(ƒôúãúÿÿÿÿ8¤×¦‡-
-nsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(þó½“üÿÿÿÿ8¤×¦‡-
-nsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(µóƒ¯úÿÿÿÿ8¤×¦‡-
-isquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(ìÔÚ8¤×¦‡-
-[
-squid:S106="9Replace this use of System.out or System.err by a logger.(´¡ÏÍúÿÿÿÿ8¤×¦‡-
-osquid:UselessImportCheck"ERemove this unused import 'org.springframework.util.CollectionUtils'.(åå…K8¤×¦‡-
-bsquid:UselessImportCheck
-"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8¤×¦‡-
-[squid:UselessImportCheck	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¤×¦‡-

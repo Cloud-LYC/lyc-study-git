@@ -7,11 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8d1cd4-78cd-40b4-99a9-39ec5bbe1536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyc/study/stringtest/DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0a1056b3e43eaaff66acd2242cb150f41666a76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f99dd17039c3762bac48a4310b58c3d754e1cbf7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/MD5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/StringNumTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/StringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/list/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/list/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/sort/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/study/sort/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/study/stringtest/DecodeString.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +131,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580042463479" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -136,10 +140,12 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
-      <recent name="$PROJECT_DIR$/src/main/resources/spring.local" />
-      <recent name="$PROJECT_DIR$/src/main/resources/springmvc" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lyc.study.search" />
@@ -148,21 +154,32 @@
       <recent name="helpdocument.service.impl" />
       <recent name="helpdocument.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/spring.local" />
+      <recent name="$PROJECT_DIR$/src/main/resources/springmvc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecodeString">
-    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.stringtest.DecodeString" />
+  <component name="RunManager" selected="Application.DateTestStudy">
+    <configuration name="DateTestStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.time.DateTestStudy" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.study.stringtest.*" />
+          <option name="PATTERN" value="com.lyc.study.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.leetcode.no394.DecodeString" />
+      <module name="lyc-study-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyc.study.leetcode.no394.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,50 +200,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyc.study.leetcode.no21.Solution" />
+      <module name="lyc-study-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyc.study.leetcode.no21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyc.study.stringtest.StringTest" />
       <module name="lyc-study-git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyc.study.stringtest.*" />
+          <option name="PATTERN" value="com.lyc.study.leetcode.no394.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTest.testDatSe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lyc-study-git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyc.study.dateUtil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyc.study.dateUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.dateUtil.DateTest" />
-      <option name="METHOD_NAME" value="testDatSe" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTest.testDateSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lyc-study-git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyc.study.dateUtil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyc.study.dateUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.lyc.study.dateUtil.DateTest" />
-      <option name="METHOD_NAME" value="testDateSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
@@ -304,18 +301,18 @@
     <list>
       <item itemvalue="Application.ListTest" />
       <item itemvalue="Application.StringTest" />
-      <item itemvalue="JUnit.DateTest.testDateSort" />
-      <item itemvalue="JUnit.DateTest.testDatSe" />
-      <item itemvalue="Tomcat Server.Web" />
       <item itemvalue="Application.DecodeString" />
+      <item itemvalue="Tomcat Server.Web" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.DateTestStudy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateTestStudy" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DecodeString" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="JUnit.DateTest.testDatSe" />
-        <item itemvalue="JUnit.DateTest.testDateSort" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +439,8 @@
       <workItem from="1588820803320" duration="1704000" />
       <workItem from="1589426353358" duration="1997000" />
       <workItem from="1591876492373" duration="1448000" />
-      <workItem from="1592039858635" duration="3092000" />
+      <workItem from="1592039858635" duration="3141000" />
+      <workItem from="1592748855479" duration="2968000" />
     </task>
     <task id="LOCAL-00001" summary="随机double两位小数位">
       <created>1539854533338</created>
@@ -556,7 +554,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592039964028</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="字符串编码">
+      <created>1592184767009</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1592184767009</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add">
+      <created>1592752796845</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1592752796845</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,53 +601,79 @@
     <MESSAGE value="汉字首字母提取" />
     <MESSAGE value="code clean" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="字符串编码" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592749378713">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1592749378713" />
     <state x="-1197" y="105" key="#xdebugger.evaluate" timestamp="1592044136096">
       <screen x="-1920" y="-145" width="1920" height="1080" />
     </state>
     <state x="-1197" y="105" key="#xdebugger.evaluate/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044136096" />
-    <state x="297" y="27" key="CommitChangelistDialog2" timestamp="1592039963750">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="347" y="31" key="CommitChangelistDialog2" timestamp="1592752796613">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="297" y="27" key="CommitChangelistDialog2/0.0.1440.900/-1920.-145.1920.1080@0.0.1440.900" timestamp="1592039963750" />
-    <state width="1878" height="388" key="GridCell.Tab.0.bottom" timestamp="1592044022607">
-      <screen x="-1920" y="-145" width="1920" height="1080" />
+    <state x="347" y="31" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1592752796613" />
+    <state x="-1524" y="-92" key="CommitChangelistDialog2/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184766690" />
+    <state width="1638" height="375" key="GridCell.Tab.0.bottom" timestamp="1592752743532">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1878" height="388" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022607" />
-    <state width="1878" height="388" key="GridCell.Tab.0.center" timestamp="1592044022603">
-      <screen x="-1920" y="-145" width="1920" height="1080" />
+    <state width="1638" height="375" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592752743532" />
+    <state width="1878" height="388" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184776611" />
+    <state width="1638" height="375" key="GridCell.Tab.0.center" timestamp="1592752743530">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1878" height="388" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022603" />
-    <state width="1878" height="388" key="GridCell.Tab.0.left" timestamp="1592044022601">
-      <screen x="-1920" y="-145" width="1920" height="1080" />
+    <state width="1638" height="375" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592752743530" />
+    <state width="1878" height="388" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184776610" />
+    <state width="1638" height="375" key="GridCell.Tab.0.left" timestamp="1592752743530">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1878" height="388" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022601" />
-    <state width="1878" height="388" key="GridCell.Tab.0.right" timestamp="1592044022605">
-      <screen x="-1920" y="-145" width="1920" height="1080" />
+    <state width="1638" height="375" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592752743530" />
+    <state width="1878" height="388" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184776609" />
+    <state width="1638" height="375" key="GridCell.Tab.0.right" timestamp="1592752743531">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1878" height="388" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022605" />
-    <state width="1878" height="388" key="GridCell.Tab.1.bottom" timestamp="1592044022612">
-      <screen x="-1920" y="-145" width="1920" height="1080" />
+    <state width="1638" height="375" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592752743531" />
+    <state width="1878" height="388" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184776610" />
+    <state width="1638" height="375" key="GridCell.Tab.1.bottom" timestamp="1592752737065">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1878" height="388" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022612" />
-    <state width="1878" height="388" key="GridCell.Tab.1.center" timestamp="1592044022610">
-      <screen x="-1920" y="-145" width="1920" height="1080" />
+    <state width="1638" height="375" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592752737065" />
+    <state width="1878" height="388" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184776612" />
+    <state width="1638" height="375" key="GridCell.Tab.1.center" timestamp="1592752737064">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1878" height="388" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022610" />
-    <state width="1878" height="388" key="GridCell.Tab.1.left" timestamp="1592044022609">
-      <screen x="-1920" y="-145" width="1920" height="1080" />
+    <state width="1638" height="375" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592752737064" />
+    <state width="1878" height="388" key="GridCell.Tab.1.center/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184776611" />
+    <state width="1638" height="375" key="GridCell.Tab.1.left" timestamp="1592752737064">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1878" height="388" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022609" />
-    <state width="1878" height="388" key="GridCell.Tab.1.right" timestamp="1592044022611">
-      <screen x="-1920" y="-145" width="1920" height="1080" />
+    <state width="1638" height="375" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592752737064" />
+    <state width="1878" height="388" key="GridCell.Tab.1.left/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184776611" />
+    <state width="1638" height="375" key="GridCell.Tab.1.right" timestamp="1592752737065">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1878" height="388" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-145.1920.1080@-1920.-145.1920.1080" timestamp="1592044022611" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592039965590">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1638" height="375" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592752737065" />
+    <state width="1878" height="388" key="GridCell.Tab.1.right/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184776611" />
+    <state x="374" y="221" key="Vcs.Push.Dialog.v2" timestamp="1592752798505">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-145.1920.1080@0.0.1440.900" timestamp="1592039965590" />
+    <state x="374" y="221" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1592752798505" />
+    <state x="-1493" y="90" key="Vcs.Push.Dialog.v2/0.23.1440.877/-1920.-122.1920.1006@-1920.-122.1920.1006" timestamp="1592184768513" />
     <state x="-1295" y="96" width="670" height="676" key="search.everywhere.popup" timestamp="1592042151913">
       <screen x="-1920" y="-145" width="1920" height="1080" />
     </state>
@@ -661,7 +699,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/list/ListTest.java</url>
-          <line>69</line>
+          <line>71</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -681,7 +719,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/list/ListTest.java</url>
-          <line>79</line>
+          <line>81</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -690,14 +728,19 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/stringtest/DecodeString.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/leetcode/no394/DecodeString.java</url>
           <line>87</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/stringtest/DecodeString.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/leetcode/no394/DecodeString.java</url>
           <line>57</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lyc/study/time/DateTestStudy.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
