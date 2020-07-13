@@ -1,6 +1,9 @@
 package com.lyc.study.mapTest;
 
-import com.lyc.dto.UserDTO;
+import com.alibaba.fastjson.JSON;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,18 +20,23 @@ import java.util.Map;
  */
 public class MapTestLyc {
     public static void main(String[] args) {
-        Map<Integer, UserDTO> userDTOMap = new HashMap<>();
 
-        userDTOMap.put(1, UserDTO.builder().userId(1).build());
-        userDTOMap.put(1, UserDTO.builder().userId(2).build());
-        userDTOMap.put(2, UserDTO.builder().userId(1).build());
+        List<Integer> activityTypesInt = new Gson().fromJson("[1,23,4,5]", new TypeToken<List<Integer>>(){}.getType());
 
-        List<UserDTO> resultList = new ArrayList<>(userDTOMap.values());
+        System.out.println(activityTypesInt);
 
 
-        resultList.sort((o1, o2) -> o1.getUserId() - o2.getUserId() > 0 ? 1 : -1);
+        List<Map> rsult = new ArrayList<>();
+        Map<String, String> valueMap = new HashMap<>();
+        valueMap.put("shopid","家居安静安静");
+        valueMap.put("shopname","家居安静安静");
+        valueMap.put("address","家居安静安静");
+        valueMap.put("shopdistrict","家居安静安静");
+        valueMap.put("shopfloor","家居安静安静");
+        rsult.add(valueMap);
 
-        System.out.println(userDTOMap);
+
+        System.out.println(JSON.toJSONString(rsult));
 
     }
 }
