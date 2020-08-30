@@ -53,14 +53,19 @@ public class DecodeString {
 
     public static String decodeString(String sourceString) {
 
-        Stack<String> stack = new Stack<String>(); //创建一个栈
+        //创建一个栈
+        Stack<String> stack = new Stack<String>();
 
-        for( int i = 0; i < sourceString.length(); i++ ) { //遍历这个字符串
-            if(sourceString.charAt(i) == ']') { //得到第一个结尾]
+        //遍历这个字符串
+        for( int i = 0; i < sourceString.length(); i++ ) {
+            //得到第一个结尾]
+            if(sourceString.charAt(i) == ']') {
                 String string="";
 
-                while(!stack.peek().equals("[")) { // 栈顶元素不等于"["
-                    string = stack.pop() + string; //塞入临时存放该[]内数据的字符串
+                // 栈顶元素不等于"["
+                while(!"[".equals(stack.peek())) {
+                    //塞入临时存放该[]内数据的字符串
+                    string = stack.pop() + string;
                 }
                 stack.pop();
                 String countString="";
@@ -73,10 +78,12 @@ public class DecodeString {
 
                 String retString="";
 
-                for(int j = 0; j < count; j++) { //根据数量进行循环追加
+                //根据数量进行循环追加
+                for(int j = 0; j < count; j++) {
                     retString = retString + string;
                 }
-                stack.push(retString);//最外层的[]数据结果 数据入栈
+                //最外层的[]数据结果 数据入栈
+                stack.push(retString);
 
             } else {  // 非 ] 数据入栈
                 String str= "" + sourceString.charAt(i);

@@ -31,13 +31,25 @@ import java.util.Set;
 public class ListTest {
     public static void main(String[] args) {
 
+
+        List<String> list = new ArrayList<>();
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        list.add("d");
+        List<String> newList =  list.subList(1, 3);//list下标是从0开始的，这里是取{b,c}
+        newList.add("new");
+        System.out.println("list:" + list);
+        System.out.println("newList:" + newList);
+
+
         testList();
 
         testList2();
 
         testList3();
 
-        List<List<Integer>> typeLists = new ArrayList<>();
+        /*List<List<Integer>> typeLists = new ArrayList<>();
         typeLists.add(Lists.newArrayList(1,2,3));
         typeLists.add(Lists.newArrayList(4,5));
         typeLists.add(Lists.newArrayList(6));
@@ -45,7 +57,7 @@ public class ListTest {
 
         for (Object list : lists) {
             System.out.println((List<Integer>)list);
-        }
+        }*/
 
 
         System.out.println("2333");
